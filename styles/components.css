@@ -1,0 +1,41 @@
+.sidebar-link {
+  @apply text-primary-500 hover:text-primary-600 focus:text-primary-600 dark:text-primary-300 dark:hover:text-primary-200 dark:focus:text-primary-200;
+}
+/*
+.postlist-tag-link {
+  @apply text-primary-500 hover:text-primary-600 focus:text-primary-600 dark:hover:text-primary-300 dark:focus:text-primary-300;
+} */
+
+/*
+.blog-navbar {
+  @apply text-dark-500 dark:text-dark-300;
+}
+
+.blog-navbar > * {
+  @apply hover:text-blog-primary-500 dark:hover:text-blog-primary-300 focus:text-blog-primary-500 dark:focus:text-blog-primary-300;
+}
+*/
+
+.warning-content {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar {
+  @apply text-cyan-500 dark:text-cyan-300;
+}
+
+.navbar > * {
+  @apply hover:text-teal-500 focus:text-teal-500 dark:hover:text-teal-300 dark:focus:text-teal-300;
+}
+
+.line-clamp {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
