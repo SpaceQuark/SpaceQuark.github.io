@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { motion, useAnimation } from "framer-motion";
 import Logo from "./Logo";
 import GitHub from "./GitHub";
+import GHLink from "./GHLink";
 
 const NavBar = () => {
   const pathname = usePathname();
@@ -68,7 +69,7 @@ const NavBar = () => {
         </div>
         <div className={`navbar flex items-center space-x-2 sm:space-x-6`}>
           <DarkModeToggle />
-          <GitHub />
+          <GHLink />
         </div>
       </div>
     </nav>
