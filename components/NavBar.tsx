@@ -57,17 +57,18 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.1 }}
           >
-            <Link rel="preload" href={`/cool`}>
+            <Link rel="preload" href={`/coursework`}>
               <span
                 className="absolute inset-0 scale-0 rounded-lg bg-gradient-to-r 
   from-blue-300 to-violet-300 opacity-0 transition-all group-hover:scale-150 group-hover:opacity-50"
               ></span>
-              Cool
+              Coursework
             </Link>
           </motion.button>
         </div>
         <div className={`navbar flex items-center space-x-2 sm:space-x-6`}>
           <DarkModeToggle />
+          <GitHub />
         </div>
       </div>
     </nav>

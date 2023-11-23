@@ -60,17 +60,8 @@ export default function Home() {
             </p>
             <p>
               I am currently a ICS honors student studying computer science and
-              mathematics at the UCI. These are some of the{" "}
-              <a
-                href="/coursework"
-                rel="noreferrer"
-                className={
-                  "rounded bg-fuchsia-100 px-0.5 py-0.5 font-medium text-fuchsia-600 hover:text-fuchsia-500 dark:bg-fuchsia-900 dark:text-fuchsia-200 dark:hover:bg-fuchsia-800 dark:hover:text-fuchsia-100"
-                }
-              >
-                courses
-              </a>{" "}
-              that I have taken.
+              mathematics at the UCI. I am currently looking for a software
+              development internship for Spring and Summer 2024.
             </p>
 
             <p>
@@ -90,7 +81,7 @@ export default function Home() {
                 href="/projects"
                 className="font-medium text-fuchsia-700 hover:text-fuchsia-500 dark:text-fuchsia-500 dark:hover:text-fuchsia-400"
               >
-                ~/projects
+                Projects
               </Link>{" "}
               to see more cool projects!
             </p>
